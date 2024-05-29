@@ -1963,6 +1963,7 @@
 <!--                            <detectOfflineLinks>false</detectOfflineLinks>-->
 <!--                            <detectJavaApiLink>false</detectJavaApiLink>-->
                             <javadocExecutable>${jdk.home}/bin/javadoc</javadocExecutable>
+                            <source>${jdk.version}</source>
                         </configuration>
                         <executions>
                             <execution>
