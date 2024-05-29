@@ -148,7 +148,7 @@
         <profile>
             <id>it-module</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <modules>
                 <module>plugins-it</module>
@@ -157,7 +157,7 @@
         <profile>
             <id>agent-testweb-module</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <modules>
                 <module>agent-testweb</module>
