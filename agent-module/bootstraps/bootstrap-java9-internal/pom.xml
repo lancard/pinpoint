@@ -136,9 +136,7 @@
                         <artifactId>maven-javadoc-plugin</artifactId>
                         <version>${plugin.javadoc.version}</version>
                         <configuration>
-                            <doclint>none</doclint>
-                            <source>8</source>
-                            <javadocExecutable>${jdk.home}/bin/javadoc</javadocExecutable>
+                            <skip>true</skip>
                         </configuration>
                         <executions>
                             <execution>
